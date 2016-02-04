@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+header {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: url("../img/intro-bg.jpg") center no-repeat;
+  background-size: cover;
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  hgroup {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    padding: .5em 3em;
+    h1{
+      font-size: 1.5em;
+      font-family: robotothin;
+    }
+    h2{
+      font-size: 1.25em;
+      font-family: robotothin;
+    }
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background:#333 center no-repeat;
+    background-size: cover;
+    opacity: 0;  -webkit-filter: blur(4px);
+  }
+}
+.site {
+  padding: 20em 0;
+  text-align: center;
+  background-color: #efefef;
+  font-size: .8em;
+  color: #444;
+  position:absolute;
+  a {
+    color: #666;
+    text-decoration: none;
+    :hover {
+      color: #222;
+    }
+  }
+}
