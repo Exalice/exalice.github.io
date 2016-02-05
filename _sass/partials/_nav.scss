@@ -11,6 +11,7 @@
       ul{
         padding: 10px 100px 10px 100px;
         margin-bottom: 0 !important;
+        margin-left: 0 !important;
         @media screen and (max-width: 768px) {
             padding: 10px 0 10px 0;
             text-align: center;
@@ -41,9 +42,11 @@
     display: inline-block;
     -webkit-transition: all 1000ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
     transition:         all 1000ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
     ul{
       padding: 10px 100px 10px 100px;
       margin-bottom: 0 !important;
+      margin-left: 0 !important;
       @media screen and (max-width: 768px) {
           padding: 10px 0 10px 0;
           text-align: center;
